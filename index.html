@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SainSan — Каталог цифровой и бытовой техники</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ============================================
+         ШАПКА САЙТА
+         ============================================ -->
+    <header>
+      <div class="header-container">
+        <a href="#" class="logo">
+          <img class="logo__img" src="assets/logo.svg" alt="" />
+        </a>
+
+        <button
+          class="mobile-menu-btn"
+          id="mobileMenuBtn"
+          aria-label="Открыть меню"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="mainNav">
+          <a href="#" class="active">Каталог</a>
+          <a href="#categories">Категории</a>
+          <a href="#about">О нас</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ============================================
+         HERO СЕКЦИЯ
+         ============================================ -->
+    <section class="hero">
+      <h1>Каталог цифровой и бытовой техники</h1>
+      <p>
+        Широкий выбор качественной электроники и бытовой техники от проверенных
+        производителей
+      </p>
+    </section>
+
+    <!-- ============================================
+         ОСНОВНОЙ КОНТЕНТ
+         ============================================ -->
+    <main>
+      <!-- Фильтр по категориям -->
+      <section class="categories" id="categories">
+        <h2>Категории товаров</h2>
+        <button class="category-btn active" data-category="all">
+          Все товары
+        </button>
+        <button class="category-btn" data-category="smartphones">
+          Смартфоны
+        </button>
+        <button class="category-btn" data-category="laptops">
+          Ноутбуки
+        </button>
+        <button class="category-btn" data-category="tv">Телевизоры</button>
+        <button class="category-btn" data-category="appliances">
+          Бытовая техника
+        </button>
+      </section>
+
+      <!-- Сетка товаров -->
+      <section class="products-grid" id="productsGrid">
+        <!-- Товары будут добавлены через JavaScript -->
+      </section>
+    </main>
+
+    <!-- ============================================
+         МОДАЛЬНОЕ ОКНО
+         ============================================ -->
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal" id="modal">
+        <div class="modal-header">
+          <div class="modal-image" id="modalImage">
+            <img src="" alt="" />
+          </div>
+          <button class="modal-close" id="modalClose">&times;</button>
+        </div>
+        <div class="modal-body">
+          <span class="modal-category" id="modalCategory"></span>
+          <h2 class="modal-title" id="modalTitle"></h2>
+          <div class="modal-price" id="modalPrice"></div>
+          <p class="modal-description" id="modalDescription"></p>
+          <div class="modal-specs">
+            <h3>Характеристики</h3>
+            <div class="specs-grid" id="modalSpecs"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================
+         ФУТЕР
+         ============================================ -->
+    <footer id="contacts">
+      <div class="footer-container">
+        <div class="footer-section" id="about">
+          <img class="logo_alt" src="assets/logo_alt.svg" alt="" />
+          <p>
+            Мы предлагаем широкий ассортимент качественной цифровой и бытовой
+            техники от ведущих мировых производителей.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Категории</h3>
+          <a href="#" data-category="smartphones">Смартфоны</a>
+          <a href="#" data-category="laptops">Ноутбуки</a>
+          <a href="#" data-category="tv">Телевизоры</a>
+          <a href="#" data-category="appliances">Бытовая техника</a>
+        </div>
+        <div class="footer-section">
+          <h3>Контакты</h3>
+          <div class="footer__info">
+            <img class="footer__info-icon" src="assets/town.svg" alt="" />
+            <p class="footer__info-text">г. Стерлитамак, ул. Артёма, д. 149</p>
+          </div>
+          <div class="footer__info">
+            <img class="footer__info-icon" src="assets/phone.svg" alt="" />
+            <p class="footer__info-text">+7 (989) 233-49-76</p>
+          </div>
+          <div class="footer__info">
+            <img class="footer__info-icon" src="assets/email.svg" alt="" />
+            <p class="footer__info-text">sainsan@example.ru</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 SainSan. Все права защищены.</p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+  </body>
+</html>
