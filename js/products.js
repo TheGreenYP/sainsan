@@ -11,7 +11,7 @@
                 category: "smartphones",
                 categoryName: "Смартфоны",
                 price: "159 990 ₽",
-                image: "",
+                image: "./assets/products/iphone.webp",
                 description: "Флагманский смартфон Apple с чипом A17 Pro и титановым корпусом",
                 fullDescription: "iPhone 15 Pro Max — это вершина инноваций Apple. Устройство оснащено революционным чипом A17 Pro, выполненным по 3-нм техпроцессу. Титановый корпус обеспечивает прочность при минимальном весе. Новая кнопка Action позволяет быстро запускать любимые функции. Камера с 5-кратным оптическим зумом открывает новые творческие возможности.",
                 specs: {
@@ -29,7 +29,7 @@
                 category: "smartphones",
                 categoryName: "Смартфоны",
                 price: "134 990 ₽",
-                image: "",
+                image: "./assets/products/s24.webp",
                 description: "Флагман Samsung с искусственным интеллектом Galaxy AI",
                 fullDescription: "Samsung Galaxy S24 Ultra — смартфон нового поколения с интегрированным искусственным интеллектом Galaxy AI. Титановая рамка обеспечивает премиальный вид и долговечность. 200-мегапиксельная камера позволяет снимать фото и видео профессионального качества. S Pen входит в комплект поставки.",
                 specs: {
@@ -47,7 +47,7 @@
                 category: "smartphones",
                 categoryName: "Смартфоны",
                 price: "89 990 ₽",
-                image: "",
+                image: "./assets/products/note14.webp",
                 description: "Мощный смартфон с камерой Leica и быстрой зарядкой 120W",
                 fullDescription: "Xiaomi 14 Pro сочетает передовые технологии и доступную цену. Камера разработана совместно с Leica для профессионального качества снимков. Быстрая зарядка 120W позволяет полностью зарядить устройство за 19 минут. Процессор Snapdragon 8 Gen 3 обеспечивает молниеносную производительность.",
                 specs: {
@@ -67,7 +67,7 @@
                 category: "laptops",
                 categoryName: "Ноутбуки",
                 price: "299 990 ₽",
-                image: "",
+                image: "./assets/products/macboolpro.webp",
                 description: "Профессиональный ноутбук Apple с чипом M3 Pro",
                 fullDescription: "MacBook Pro 16 дюймов с чипом M3 Pro — это мощная рабочая станция для профессионалов. Дисплей Liquid Retina XDR обеспечивает потрясающее качество изображения. До 22 часов автономной работы позволяют работать где угодно. Идеален для видеомонтажа, 3D-графики и разработки.",
                 specs: {
@@ -85,7 +85,7 @@
                 category: "laptops",
                 categoryName: "Ноутбуки",
                 price: "189 990 ₽",
-                image: "",
+                image: "./assets/products/asusrog.webp",
                 description: "Мощный игровой ноутбук с RTX 4070 и OLED-дисплеем",
                 fullDescription: "ASUS ROG Zephyrus G16 — это игровой ноутбук премиум-класса в тонком корпусе. OLED-дисплей с частотой 240 Гц обеспечивает невероятную плавность изображения. Видеокарта NVIDIA RTX 4070 позволяет играть на максимальных настройках. Инновационная система охлаждения ROG Intelligent Cooling сохраняет производительность даже при длительных нагрузках.",
                 specs: {
@@ -103,7 +103,7 @@
                 category: "laptops",
                 categoryName: "Ноутбуки",
                 price: "159 990 ₽",
-                image: "",
+                image: "./assets/products/thinkpad.webp",
                 description: "Ультралёгкий бизнес-ноутбук с 2.8K OLED дисплеем",
                 fullDescription: "Lenovo ThinkPad X1 Carbon — легендарный бизнес-ноутбук, ставший ещё совершеннее. Вес всего 1.12 кг делает его идеальным спутником в путешествиях. 2.8K OLED дисплей с поддержкой HDR обеспечивает великолепное изображение. Знаменитая клавиатура ThinkPad и трекпоинт для максимального комфорта работы.",
                 specs: {
@@ -123,7 +123,7 @@
                 category: "tv",
                 categoryName: "Телевизоры",
                 price: "179 990 ₽",
-                image: "",
+                image: "./assets/products/lgtv.webp",
                 description: "65-дюймовый OLED-телевизор с процессором α9 AI 4K Gen7",
                 fullDescription: "LG OLED65C4 — это телевизор с технологией самоподсвечивающихся пикселей для идеального чёрного цвета. Процессор α9 AI 4K Gen7 использует искусственный интеллект для оптимизации изображения и звука. 4 порта HDMI 2.1 идеальны для геймеров. Частота обновления 120 Гц и время отклика менее 1 мс.",
                 specs: {
@@ -141,7 +141,7 @@
                 category: "tv",
                 categoryName: "Телевизоры",
                 price: "149 990 ₽",
-                image: "",
+                image: "./assets/products/samsingtv.webp",
                 description: "Neo QLED телевизор с мини-LED подсветкой и AI-процессором",
                 fullDescription: "Samsung QN85D — телевизор с технологией Neo QLED и мини-LED подсветкой для превосходной контрастности. Процессор Neural Quantum 4K анализирует контент в реальном времени и улучшает качество изображения. Object Tracking Sound Pro создаёт объёмный звук, следующий за действием на экране.",
                 specs: {
@@ -159,7 +159,7 @@
                 category: "tv",
                 categoryName: "Телевизоры",
                 price: "299 990 ₽",
-                image: "",
+                image: "./assets/products/sonyxr.webp",
                 description: "Премиальный QD-OLED телевизор с процессором Cognitive XR",
                 fullDescription: "Sony Bravia XR A95L — флагманский телевизор с матрицей QD-OLED, сочетающей преимущества OLED и квантовых точек. Процессор Cognitive XR анализирует контент так, как это делает человеческий мозг. Acoustic Surface Audio+ использует экран как динамик для полного погружения в происходящее.",
                 specs: {
@@ -179,7 +179,7 @@
                 category: "appliances",
                 categoryName: "Бытовая техника",
                 price: "69 990 ₽",
-                image: "",
+                image: "./assets/products/dysonv15.webp",
                 description: "Беспроводной пылесос с лазерным обнаружением пыли",
                 fullDescription: "Dyson V15 Detect — самый мощный беспроводной пылесос Dyson. Зелёный лазер выявляет микроскопическую пыль, невидимую невооружённым глазом. Пьезодатчик подсчитывает и классифицирует частицы в реальном времени. До 60 минут работы без подзарядки.",
                 specs: {
@@ -197,7 +197,7 @@
                 category: "appliances",
                 categoryName: "Бытовая техника",
                 price: "189 990 ₽",
-                image: "",
+                image: "./assets/products/samsungfridge.jpg",
                 description: "Многодверный холодильник с технологией AI Energy Mode",
                 fullDescription: "Samsung Bespoke RF9000 — холодильник премиум-класса с кастомизируемыми панелями. Технология AI Energy Mode анализирует паттерны использования и оптимизирует энергопотребление. Функция Family Hub с 21.5\" сенсорным экраном позволяет управлять умным домом прямо с двери холодильника.",
                 specs: {
@@ -215,7 +215,7 @@
                 category: "appliances",
                 categoryName: "Бытовая техника",
                 price: "89 990 ₽",
-                image: "",
+                image: "./assets/products/bosch.webp",
                 description: "Стиральная машина с технологией i-DOS и Home Connect",
                 fullDescription: "Bosch Serie 8 — стиральная машина премиум-класса с автоматическим дозированием моющего средства i-DOS. Система Home Connect позволяет управлять машиной со смартфона из любой точки мира. Барабан SpeedPerfect сокращает время стирки до 65% без потери качества.",
                 specs: {
